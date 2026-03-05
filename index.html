@@ -50,7 +50,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:
 .sidebar{position:sticky;top:16px;padding:56px 0 64px;z-index:10}
 @media(max-width:960px){.sidebar{display:none}}
 .side-card{background:var(--white);border:1px solid var(--border);border-radius:var(--r);overflow:hidden;box-shadow:0 4px 24px rgba(0,0,0,.06)}
-.side-hdr{padding:24px 22px 18px;background:var(--blue-hero);color:#fff}
+.side-hdr{padding:24px 22px 18px;background:var(--slate);color:#fff}
 .side-hdr h2{font-size:1.05rem;font-weight:800;letter-spacing:-.02em;margin-bottom:2px}
 .side-hdr p{font-size:.8rem;opacity:.7}
 
@@ -108,7 +108,7 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:
 .p-card .p-alt{font-size:.75rem;color:var(--text4);margin-top:8px;text-align:center}
 
 /* ── MOBILE BOTTOM BAR ── */
-.mob-bar{display:none;position:fixed;bottom:0;left:0;right:0;background:var(--blue-hero);color:#fff;z-index:50;box-shadow:0 -4px 20px rgba(0,0,0,.15);flex-direction:column}
+.mob-bar{display:none;position:fixed;bottom:0;left:0;right:0;background:var(--slate);color:#fff;z-index:50;box-shadow:0 -4px 20px rgba(0,0,0,.15);flex-direction:column}
 @media(max-width:960px){.mob-bar{display:flex}}
 .mob-row{display:flex;align-items:center;justify-content:space-between;padding:14px 20px;cursor:pointer}
 .mob-row h3{font-size:.92rem;font-weight:700}.mob-row .mob-sub{font-size:.72rem;opacity:.6}
@@ -140,8 +140,8 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:
 .st .ic{color:var(--teal);margin-bottom:6px}
 .st .n{font-size:1.5rem;font-weight:800;letter-spacing:-.02em;line-height:1.15}
 .st .n small{font-size:.48em;font-weight:500;color:var(--text3)}
-.st .l{font-size:.7rem;color:var(--text3);line-height:1.3;margin-top:1px}
-.st .s{font-size:.72rem;color:var(--text3);margin-top:3px;font-weight:500}
+.st .l{font-size:.78rem;color:var(--text2);line-height:1.3;margin-top:2px;font-weight:500}
+.st .s{font-size:.78rem;color:var(--text2);margin-top:4px;font-weight:600}
 .or-pair{display:flex;align-items:stretch;gap:0}
 .or-pair .st{flex:1;min-width:0}
 .or-sep{display:flex;align-items:center;justify-content:center;padding:0 6px;font-size:.72rem;font-weight:700;color:var(--text4);text-transform:uppercase;letter-spacing:.04em;flex-shrink:0}
@@ -288,13 +288,13 @@ footer a{color:var(--teal);text-decoration:none}footer a:hover{text-decoration:u
     <!-- 24hr -->
     <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div><div class="n">24hr</div><div class="l">Year-round operations</div></div>
     <!-- 54 vehicle -->
-    <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17h14v-5l-2-6H7L5 12v5z"/><circle cx="7.5" cy="17" r="2"/><circle cx="16.5" cy="17" r="2"/></svg></div><div class="n">54</div><div class="l">Vehicle parking spaces</div></div>
+    <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 17h14v-5l-2-6H7L5 12v5z"/><circle cx="7.5" cy="17" r="2"/><circle cx="16.5" cy="17" r="2"/></svg></div><div class="n">Up to 54</div><div class="l">General motor-vehicle parking spaces</div></div>
     <!-- 8 bus -->
-    <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/><circle cx="7" cy="16" r="1"/><circle cx="17" cy="16" r="1"/><line x1="3" y1="18" x2="3" y2="20"/><line x1="21" y1="18" x2="21" y2="20"/></svg></div><div class="n">8</div><div class="l">Bus / oversized spaces</div></div>
+    <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="14" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/><circle cx="7" cy="16" r="1"/><circle cx="17" cy="16" r="1"/><line x1="3" y1="18" x2="3" y2="20"/><line x1="21" y1="18" x2="21" y2="20"/></svg></div><div class="n">Up to 8</div><div class="l">Bus or oversized vehicle spaces</div></div>
     <!-- 24 cabin parking -->
-    <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M4 21V10l8-6 8 6v11"/><path d="M9 21v-6h6v6"/></svg></div><div class="n">24</div><div class="l">Cabin parking spaces</div><div class="s">2 per cabin, max 12 cabins</div></div>
+    <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M4 21V10l8-6 8 6v11"/><path d="M9 21v-6h6v6"/></svg></div><div class="n">Up to 24</div><div class="l">Cabin parking spaces</div><div class="s">2 per cabin × maximum 12 cabins</div></div>
     <!-- 10 research -->
-    <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v8L4.7 18.3a2 2 0 0 0 1.7 3h11.2a2 2 0 0 0 1.7-3L14 10V2"/><path d="M8.5 2h7"/><path d="M7 16h10"/></svg></div><div class="n">10</div><div class="l">Research parking spaces</div></div>
+    <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2v8L4.7 18.3a2 2 0 0 0 1.7 3h11.2a2 2 0 0 0 1.7-3L14 10V2"/><path d="M8.5 2h7"/><path d="M7 16h10"/></svg></div><div class="n">Up to 10</div><div class="l">Research station parking spaces</div></div>
     <!-- 12 cabins OR 24 RV — paired -->
     <div class="or-pair" style="grid-column:span 2">
       <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M4 21V10l8-6 8 6v11"/><path d="M9 21v-6h6v6"/></svg></div><div class="n">12</div><div class="l">Rental cabins</div></div>
@@ -302,11 +302,11 @@ footer a{color:var(--teal);text-decoration:none}footer a:hover{text-decoration:u
       <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="8" width="16" height="10" rx="2"/><path d="M18 8h2a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-2"/><circle cx="7" cy="18" r="2"/><circle cx="15" cy="18" r="2"/></svg></div><div class="n">24</div><div class="l">RV campsites</div></div>
     </div>
     <!-- 20 tents -->
-    <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L3 20h18L12 2z"/><path d="M12 2v18"/><path d="M8 20l4-8 4 8"/></svg></div><div class="n">20</div><div class="l">Tent sites</div><div class="s">No cap on guests per tent</div></div>
+    <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L3 20h18L12 2z"/><path d="M12 2v18"/><path d="M8 20l4-8 4 8"/></svg></div><div class="n">20</div><div class="l">Tent sites</div><div class="s">No guest limit specified per tent</div></div>
     <!-- 12 bunkhouse -->
-    <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18v-6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v6"/><path d="M2 18h20"/><path d="M6 10V7a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v3"/><line x1="2" y1="18" x2="2" y2="20"/><line x1="22" y1="18" x2="22" y2="20"/></svg></div><div class="n">12</div><div class="l">Bunkhouse observatories</div><div class="s">No cap on guests per unit</div></div>
+    <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 18v-6a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v6"/><path d="M2 18h20"/><path d="M6 10V7a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v3"/><line x1="2" y1="18" x2="2" y2="20"/><line x1="22" y1="18" x2="22" y2="20"/></svg></div><div class="n">12</div><div class="l">Bunkhouse observatories</div><div class="s">Group accommodation structures</div></div>
     <!-- 1 boathouse -->
-    <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20l3-3c2-2 5-2 7 0s5 2 7 0l3-3"/><path d="M6 12V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v6"/><path d="M6 12h12"/><line x1="12" y1="4" x2="12" y2="12"/></svg></div><div class="n">1</div><div class="l">Boathouse + wharf</div><div class="s">Only approved structure with no watercourse setback</div></div>
+    <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 20l3-3c2-2 5-2 7 0s5 2 7 0l3-3"/><path d="M6 12V6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v6"/><path d="M6 12h12"/><line x1="12" y1="4" x2="12" y2="12"/></svg></div><div class="n">1</div><div class="l">Boathouse + wharf</div><div class="s">Located at the shoreline of Big Lake on the Development Agreement site plan</div></div>
     <!-- 15,000 lodge -->
     <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="6" width="16" height="16" rx="1"/><path d="M4 10h16"/><rect x="8" y="14" width="3" height="4"/><rect x="13" y="14" width="3" height="4"/></svg></div><div class="n">15,000<small> SF</small></div><div class="l">Commercial lodge building</div></div>
     <!-- 2,000 observatory -->
@@ -319,8 +319,8 @@ footer a{color:var(--teal);text-decoration:none}footer a:hover{text-decoration:u
 
   <!-- NO CAP BAR — full width dark red -->
   <div class="no-cap-bar">
-    <div class="nc-num">No maximum specified</div>
-    <div class="nc-lbl">Site-wide occupancy cap in the Development Agreement</div>
+    <div class="nc-num">Guest limits not specified</div>
+    <div class="nc-lbl">The Development Agreement does not specify a maximum number of guests for cabins or tent sites. Bunkhouse observatories are described in planning materials as small observatories designed for approximately four to six people.</div>
   </div>
 
   <!-- PLANNED EVENTS (Planning Rationale only) -->
