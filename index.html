@@ -112,7 +112,11 @@ body{font-family:var(--font);background:var(--bg);color:var(--text);line-height:
 @media(max-width:960px){body{padding-bottom:62px}}
 /* ── SECTION HEADERS ── */
 .sh{margin-bottom:32px}
-.sh h2{font-size:clamp(1.3rem,3vw,1.65rem);font-weight:800;letter-spacing:-.025em;margin-bottom:4px}
+.sh h2{font-size:clamp(1.6rem,4vw,2.2rem);font-weight:900;letter-spacing:-.03em;margin-bottom:4px;color:var(--blue-hero)}
+.parking-sum{text-align:center;padding:18px 16px 14px;margin:20px 0 8px;position:relative}
+.parking-sum::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:var(--red);border-radius:2px}
+.parking-sum::after{content:'';position:absolute;top:-6px;left:50%;width:3px;height:12px;background:var(--red);transform:translateX(-50%)}
+.parking-sum .ps-text{font-size:clamp(1.1rem,2.5vw,1.4rem);font-weight:800;color:var(--red);letter-spacing:-.02em}
 .sh p{color:var(--text3);font-size:.95rem}
 /* ── DOCS ── */
 .docs-bar{background:var(--white);border:1px solid var(--border);border-radius:var(--r);padding:20px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:48px}
@@ -261,6 +265,16 @@ footer a{color:var(--teal);text-decoration:none}footer a:hover{text-decoration:u
     <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 16h14v-4l-2-5H7L5 12v4z"/><circle cx="7.5" cy="16" r="1.5"/><circle cx="16.5" cy="16" r="1.5"/><line x1="5" y1="12" x2="19" y2="12"/><rect x="9" y="1" width="6" height="5" rx="1"/><text x="12" y="5" text-anchor="middle" font-size="4" font-weight="700" fill="currentColor" stroke="none">P</text><line x1="6" y1="14" x2="8" y2="14" opacity=".4" stroke-width="1.3"/><line x1="16" y1="14" x2="18" y2="14" opacity=".4" stroke-width="1.3"/><path d="M9 9h2" opacity=".35" stroke-width="1.2"/><path d="M13 9h2" opacity=".35" stroke-width="1.2"/></svg></div><div class="n">Up to 54</div><div class="l">General motor-vehicle <b>parking spaces</b></div></div>
     <!-- 3. 8 bus — detailed bus with mirror, bumper, route sign -->
     <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="15" rx="2"/><line x1="4" y1="8" x2="20" y2="8"/><line x1="4" y1="14" x2="20" y2="14"/><line x1="12" y1="3" x2="12" y2="8"/><circle cx="7.5" cy="17" r="1"/><circle cx="16.5" cy="17" r="1"/><path d="M4 18v2h3"/><path d="M20 18v2h-3"/><rect x="7" y="4.5" width="4" height="2" rx=".5" opacity=".3" stroke-width="1"/><rect x="13" y="4.5" width="4" height="2" rx=".5" opacity=".3" stroke-width="1"/><line x1="2" y1="10" x2="4" y2="10" opacity=".35" stroke-width="1.2"/><line x1="20" y1="10" x2="22" y2="10" opacity=".35" stroke-width="1.2"/></svg></div><div class="n">Up to 8</div><div class="l"><b>Bus</b> or oversized vehicle spaces</div></div>
+    <!-- 3b. Up to 24 cabin parking -->
+    <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 16h14v-4l-2-5H7L5 12v4z"/><circle cx="7.5" cy="16" r="1.5"/><circle cx="16.5" cy="16" r="1.5"/><line x1="5" y1="12" x2="19" y2="12"/><rect x="9" y="1" width="6" height="5" rx="1"/><text x="12" y="5" text-anchor="middle" font-size="4" font-weight="700" fill="currentColor" stroke="none">P</text><line x1="6" y1="14" x2="8" y2="14" opacity=".4" stroke-width="1.3"/><line x1="16" y1="14" x2="18" y2="14" opacity=".4" stroke-width="1.3"/><path d="M9 9h2" opacity=".35" stroke-width="1.2"/><path d="M13 9h2" opacity=".35" stroke-width="1.2"/></svg></div><div class="n">Up to 24</div><div class="l">Cabin <b>parking spaces</b></div><div class="s">2 per cabin × maximum 12 cabins</div></div>
+    <!-- 3c. Up to 10 research station parking -->
+    <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 16h14v-4l-2-5H7L5 12v4z"/><circle cx="7.5" cy="16" r="1.5"/><circle cx="16.5" cy="16" r="1.5"/><line x1="5" y1="12" x2="19" y2="12"/><rect x="9" y="1" width="6" height="5" rx="1"/><text x="12" y="5" text-anchor="middle" font-size="4" font-weight="700" fill="currentColor" stroke="none">P</text><line x1="6" y1="14" x2="8" y2="14" opacity=".4" stroke-width="1.3"/><line x1="16" y1="14" x2="18" y2="14" opacity=".4" stroke-width="1.3"/><path d="M9 9h2" opacity=".35" stroke-width="1.2"/><path d="M13 9h2" opacity=".35" stroke-width="1.2"/></svg></div><div class="n">Up to 10</div><div class="l">Research station <b>parking spaces</b></div></div>
+  </div>
+  <!-- PARKING SUM BAR -->
+  <div class="parking-sum">
+    <div class="ps-text">Up to 88 parking spaces + 8 Buses</div>
+  </div>
+  <div class="stats-grid">
     <!-- 4. 12 cabins OR 24 RV — paired -->
     <div class="or-pair" style="grid-column:span 2">
       <div class="st"><div class="ic"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V11l7-5 7 5v10"/><path d="M10 21v-5h4v5"/><path d="M9 13h1"/><path d="M14 13h1"/><circle cx="12" cy="9" r=".5" fill="currentColor" stroke="none" opacity=".4"/><path d="M19 8l1-1" opacity=".3" stroke-width="1.2"/><path d="M5 8l-1-1" opacity=".3" stroke-width="1.2"/><path d="M12 3v1" opacity=".35" stroke-width="1.2"/></svg></div><div class="n">12</div><div class="l"><b>Rental cabins</b></div></div>
